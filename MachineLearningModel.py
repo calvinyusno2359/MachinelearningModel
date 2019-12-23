@@ -8,6 +8,7 @@ class MachineLearningModel:
     X (np.array of shape (n, m))  : n rows of data points down x m rows of feature columns
     Y (np.array of shape (n, ))   : n rows of y target values
   '''
+
   def __init__(self, X, Y):
     self.X = X
     self.Y = Y
